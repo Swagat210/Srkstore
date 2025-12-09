@@ -14,10 +14,10 @@ PORT = os.environ.get("PORT", "8080")  # dont edit unless you deploying in vps
 
 DB_URI = os.environ.get(
     "DATABASE_URL",
-    "mongodb+srv://swagat210:<swagat210>@swagat210.3gazjhn.mongodb.net/?retryWrites=true&w=majority&appName=Swagat210",
+    "mongodb+srv://jay:hanuman@hanuman.tgwobmu.mongodb.net/?retryWrites=true&w=majority&appName=Hanuman",
 )
 
-DB_NAME = os.environ.get("DATABASE_NAME", "swagat210")
+DB_NAME = os.environ.get("DATABASE_NAME", "jayhanuman")
 RAZORPAY_KEY_ID = os.environ.get("RAZORPAY_KEY_ID", "rzp_test_RpaapuBPNb95R8")
 RAZORPAY_SECRET_KEY = os.environ.get("RAZORPAY_SECRET_KEY", "J9oxA7CSdUsr1iIZt9ffptiW")
 
