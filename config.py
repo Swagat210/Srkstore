@@ -33,7 +33,7 @@ LOG_CHAT = list(
     )
 )
 
-log_chat_id = LOG_CHAT[0]
+log_chat_id = LOG_CHAT["7990200132"]
 
 IMG_URL = os.environ.get("IMG_URL", "https://envs.sh/05W.jpg")
 
