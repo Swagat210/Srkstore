@@ -2,24 +2,24 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7996302052:AAEvYi8mQUi7PLEM5B_bOMgUsKoKuiOCbb0")
 
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "29270492"))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "c0ff4a728d5da8de25807766b2901111")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7990200132"))
 
 PORT = os.environ.get("PORT", "8080")  # dont edit unless you deploying in vps
 
 DB_URI = os.environ.get(
     "DATABASE_URL",
-    "",
+    "mongodb+srv://swagat210:<swagat210>@swagat210.3gazjhn.mongodb.net/?retryWrites=true&w=majority&appName=Swagat210",
 )
 
-DB_NAME = os.environ.get("DATABASE_NAME", "subsmanage")
-RAZORPAY_KEY_ID = os.environ.get("RAZORPAY_KEY_ID", "")
-RAZORPAY_SECRET_KEY = os.environ.get("RAZORPAY_SECRET_KEY", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "swagat210")
+RAZORPAY_KEY_ID = os.environ.get("RAZORPAY_KEY_ID", "rzp_test_RpaapuBPNb95R8")
+RAZORPAY_SECRET_KEY = os.environ.get("RAZORPAY_SECRET_KEY", "J9oxA7CSdUsr1iIZt9ffptiW")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -37,26 +37,26 @@ log_chat_id = LOG_CHAT[0]
 
 IMG_URL = os.environ.get("IMG_URL", "https://envs.sh/05W.jpg")
 
-POWERED_BY = os.environ.get("POWERED_BY", "@MadxBotz")
+POWERED_BY = os.environ.get("POWERED_BY", "@Dd_Lovely")
 
 BASE_URL = os.environ.get("BASE_URL", "https://starfish-app-kj4sn.ondigitalocean.app/")
 
 
 try:
-    ADMINS = [int(x) for x in os.environ.get("ADMINS", "1032438381").split()]
+    ADMINS = [int(x) for x in os.environ.get("ADMINS", "7990200132").split()]
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
 
 try:
-    AUTHS = [int(x) for x in os.environ.get("AUTHS", "5861377019").split()]
+    AUTHS = [int(x) for x in os.environ.get("AUTHS", "5694062287").split()]
 except ValueError:
     raise Exception("Your Auths list does not contain valid integers.")
 
 USER_REPLY_TEXT = f"<b>Available Commands\n\n/mysub - To Check Your Subscription Details.\n\n/plans - To Check Available Plans.\n\n<blockquote>〽️ Powered by {POWERED_BY}</blockquote></b>"
 
-ADMINS.append(OWNER_ID)
-AUTHS.append(6872007595)
-ADMINS.append(1032438381)
+ADMINS.append(7990200132)
+AUTHS.append(5694062287)
+ADMINS.append(7990200132)
 
 LOG_FILE_NAME = "madxbotz.txt"
 
