@@ -28,7 +28,7 @@ LOG_CHAT = list(
         int,
         os.environ.get(
             "LOG_CHAT",
-            "",
+            "-1003005264320",
         ).split(),
     )
 )
