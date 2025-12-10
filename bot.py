@@ -1,5 +1,5 @@
 from aiohttp import web
-from plugins import web_server
+from plugins/__init__.py
 import asyncio
 import pyrogram
 import pyrogram.utils
