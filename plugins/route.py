@@ -8,7 +8,6 @@ from bson import ObjectId
 from database.database import temp_data, services_data, add_or_update_subscription
 import pytz
 from datetime import datetime, timedelta
-from bot import *  # Make sure to import your bot client
 
 IST = pytz.timezone("Asia/Kolkata")
 razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_SECRET_KEY))
