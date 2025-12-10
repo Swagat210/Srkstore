@@ -1,5 +1,5 @@
 from aiohttp import web
-from plugins import web_server, route
+from plugins import web_server, routes
 import asyncio
 import pyrogram
 import pyrogram.utils
